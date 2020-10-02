@@ -6,25 +6,24 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.kotlin.demo.databinding.FragmentDemoTwoBinding
+import com.kotlin.demo.databinding.FragmentDemoJobCancelHandlingBinding
 import kotlinx.coroutines.*
 
-class DemoTwoFragment : Fragment() {
+class DemoJobCancelHandling : Fragment() {
 
-    private var _binding: FragmentDemoTwoBinding? = null
+    private var _binding: FragmentDemoJobCancelHandlingBinding? = null
     private val binding get() = _binding!!
+    private val TAG: String = "CancelDemo"
 
     private val JOB_ONE_TIME : Long = 1000L
     private val JOB_TWO_TIME : Long = 3000L
-
-    private val TAG: String = "ExceptionDemo"
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentDemoTwoBinding.inflate(inflater, container, false)
+        _binding = FragmentDemoJobCancelHandlingBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -51,7 +50,7 @@ class DemoTwoFragment : Fragment() {
         val parentJob = CoroutineScope(Dispatchers.IO).launch(exception){
             val job1 : Job = launch {
                 delay(JOB_ONE_TIME)
-                throw Exception("User threw a exception")
+                cancel("User cancelled from JOB1")
             }
 
             val job2 : Job = launch { delay(JOB_TWO_TIME) }
@@ -80,4 +79,5 @@ class DemoTwoFragment : Fragment() {
                 Log.d(TAG,"Parent job is Success")
         }
     }
+
 }

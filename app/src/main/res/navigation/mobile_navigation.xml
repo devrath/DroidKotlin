@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/nav_one"
-        android:name="com.kotlin.demo.ui.DemoTwoFragment"
+        android:name="com.kotlin.demo.ui.DemoJobExceptionHandling"
         android:label="@string/exception_demo"
-        tools:layout="@layout/fragment_demo_two" />
+        tools:layout="@layout/fragment_demo_job_exception_handling" />
 
     <fragment
         android:id="@+id/nav_two"
-        android:name="com.kotlin.demo.ui.DemoOneFragment"
+        android:name="com.kotlin.demo.ui.DemoJobCancelHandling"
         android:label="@string/cancel_demo"
-        tools:layout="@layout/fragment_demo_one" />
+        tools:layout="@layout/fragment_demo_job_cancel_handling" />
 </navigation>
