@@ -22,4 +22,10 @@
         android:name="com.kotlin.demo.ui.DemoJobCancelHandling"
         android:label="@string/cancel_demo"
         tools:layout="@layout/fragment_demo_job_cancel_handling" />
+
+    <fragment
+        android:id="@+id/nav_three"
+        android:name="com.kotlin.demo.ui.DemoKotlinObject"
+        android:label="@string/object_demo"
+        tools:layout="@layout/fragment_demo_kotlin_object" />
 </navigation>

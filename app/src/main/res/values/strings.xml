@@ -9,6 +9,7 @@
 
     <string name="menu_slideshow">Slideshow</string>
     <string name="cancel_demo">Job Cancel Handling</string>
+    <string name="object_demo">Object Demo</string>
     <string name="exception_demo">Job Exception Handling</string>
     <string name="welcome">Welcome</string>
 </resources>
