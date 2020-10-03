@@ -8,6 +8,7 @@ Demo of concepts in kotlin
 
 - [x]  Exception handeling in Co-Routine
 - [x]  Cancelation handeling in Co-Routine
+- [x]  Object class in kotlin
 
 
 ### Exception Handeling: 
@@ -34,3 +35,18 @@ com.kotlin.demo D/CancelDemo: Job-2 is Success
 com.kotlin.demo D/CancelDemo: Parent job is Success
 ```
 *observation:* Here we will get a error in Job1, Then Job2 is successful. finally the Parent Job is is successful
+
+### Object class in CoRoutine: 
+
+```
+com.kotlin.demo I/System.out: Value of counter: 0
+com.kotlin.demo I/System.out: Value of counter: 1
+com.kotlin.demo I/System.out: Value of counter: 2
+com.kotlin.demo I/System.out: Value of counter: 3
+```
+*observation:* We can clearly see that the init block is executed only once no matter how many times we use singleton
+
+
+
+
+
