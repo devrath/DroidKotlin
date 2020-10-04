@@ -10,6 +10,7 @@ Demo of concepts in kotlin
 - [x]  Cancelation handeling in Co-Routine
 - [x]  Object class in kotlin
 - [x]  Companion object in kotlin
+- [x]  Extension functions in kotlin
 
 ### Exception Handeling: 
 We have used 2 jobs, Job1 executes in 1 second and Job2 executes in 3 seconds. Now we throw an exception in Job1.
@@ -59,6 +60,7 @@ com.kotlin.demo I/System.out: Current value is: 2
 *observation:* Companion objects are similar to Object class in kotlin but they are used inside the class and are loaded once the class is loaded
 
 
-
+### Extension function in kotlin: 
+*observation:* We can extend the functionalities of a class by adding additional features for it 
 
 
