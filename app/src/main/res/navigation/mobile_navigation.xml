@@ -40,4 +40,10 @@
         android:name="com.kotlin.demo.ui.extensionFunction.DemoExtensionFunction"
         android:label="@string/Extension_function_demo"
         tools:layout="@layout/fragment_demo_extension_function" />
+
+    <fragment
+        android:id="@+id/nav_six"
+        android:name="com.kotlin.demo.ui.higherOrderFunction.DemoHigherOrderFunction"
+        android:label="@string/higher_order_function_demo"
+        tools:layout="@layout/fragment_demo_higher_order_function" />
 </navigation>
