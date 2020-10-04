@@ -7,31 +7,37 @@
 
     <fragment
         android:id="@+id/nav_welcome"
-        android:name="com.kotlin.demo.ui.WelcomeFragment"
+        android:name="com.kotlin.demo.WelcomeFragment"
         android:label="@string/welcome"
         tools:layout="@layout/fragment_welcome" />
 
     <fragment
         android:id="@+id/nav_one"
-        android:name="com.kotlin.demo.ui.DemoJobExceptionHandling"
+        android:name="com.kotlin.demo.ui.jobs.exceptionHandeling.DemoJobExceptionHandling"
         android:label="@string/exception_demo"
         tools:layout="@layout/fragment_demo_job_exception_handling" />
 
     <fragment
         android:id="@+id/nav_two"
-        android:name="com.kotlin.demo.ui.DemoJobCancelHandling"
+        android:name="com.kotlin.demo.ui.jobs.cancelHandeling.DemoJobCancelHandling"
         android:label="@string/cancel_demo"
         tools:layout="@layout/fragment_demo_job_cancel_handling" />
 
     <fragment
         android:id="@+id/nav_three"
-        android:name="com.kotlin.demo.ui.DemoKotlinObject"
+        android:name="com.kotlin.demo.ui.kotlinObject.DemoKotlinObject"
         android:label="@string/object_demo"
         tools:layout="@layout/fragment_demo_kotlin_object" />
 
     <fragment
         android:id="@+id/nav_four"
-        android:name="com.kotlin.demo.ui.DemoKotlinCompanionObject"
+        android:name="com.kotlin.demo.ui.companionObject.DemoKotlinCompanionObject"
         android:label="@string/companion_object_demo"
         tools:layout="@layout/fragment_demo_kotlin_companion_object" />
+
+    <fragment
+        android:id="@+id/nav_five"
+        android:name="com.kotlin.demo.ui.extensionFunction.DemoExtensionFunction"
+        android:label="@string/Extension_function_demo"
+        tools:layout="@layout/fragment_demo_extension_function" />
 </navigation>

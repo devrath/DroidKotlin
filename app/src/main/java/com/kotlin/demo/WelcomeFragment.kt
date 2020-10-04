@@ -1,4 +1,4 @@
-package com.kotlin.demo.ui
+package com.kotlin.demo
 
 import android.os.Bundle
 import android.view.LayoutInflater

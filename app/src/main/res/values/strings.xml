@@ -11,6 +11,20 @@
     <string name="cancel_demo">Job Cancel Handling</string>
     <string name="object_demo">Object Demo</string>
     <string name="companion_object_demo">Companion Object Demo</string>
+    <string name="Extension_function_demo">Extension Function Demo</string>
     <string name="exception_demo">Job Exception Handling</string>
     <string name="welcome">Welcome</string>
+
+
+    <string name="text_error">Error</string>
+    <string name="text_success">Success</string>
+    <string name="text_ok">OK</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="text_yes">yes</string>
+    <string name="message_one">You successfully did that thing!</string>
+    <string name="message_error">Something went wrong…</string>
+    <string name="message_succes">You successfully did that thing!</string>
+    <string name="message_cancelled">Cancelled...</string>
+    <string name="message_are_you_sure">Are you sure you want to do that? This can\'t be un-done.</string>
 </resources>

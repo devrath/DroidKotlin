@@ -1,4 +1,4 @@
-package com.kotlin.demo.ui
+package com.kotlin.demo.ui.companionObject
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.kotlin.demo.databinding.FragmentDemoKotlinCompanionObjectBinding
-import com.kotlin.demo.ui.CompanionObject.Companion.incrementValue
-import com.kotlin.demo.ui.CompanionObject.Companion.printValue
+import com.kotlin.demo.ui.companionObject.CompanionObject.Companion.incrementValue
+import com.kotlin.demo.ui.companionObject.CompanionObject.Companion.printValue
 
 class DemoKotlinCompanionObject: Fragment() {
 
