@@ -46,4 +46,23 @@
         android:name="com.kotlin.demo.ui.higherOrderFunction.DemoHigherOrderFunction"
         android:label="@string/higher_order_function_demo"
         tools:layout="@layout/fragment_demo_higher_order_function" />
+
+
+    <fragment
+        android:id="@+id/nav_seven"
+        android:name="com.kotlin.demo.ui.scoping.globalScoping.DemoGlobalScoping"
+        android:label="@string/global_scope_demo"
+        tools:layout="@layout/fragment_demo_higher_order_function" />
+
+    <fragment
+        android:id="@+id/nav_eight"
+        android:name="com.kotlin.demo.ui.scoping.runblockingscoping.DemoRunBlockingScoping"
+        android:label="@string/run_blocking_demo"
+        tools:layout="@layout/fragment_demo_higher_order_function" />
+
+    <fragment
+        android:id="@+id/nav_nine"
+        android:name="com.kotlin.demo.ui.scoping.coroutinescoping.DemoCoRoutineScoping"
+        android:label="@string/co_routine_demo"
+        tools:layout="@layout/fragment_demo_higher_order_function" />
 </navigation>

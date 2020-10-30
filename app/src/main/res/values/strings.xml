@@ -14,6 +14,9 @@
     <string name="Extension_function_demo">Extension Function Demo</string>
     <string name="exception_demo">Job Exception Handling</string>
     <string name="higher_order_function_demo">Higher Order Function</string>
+    <string name="global_scope_demo">Global Scope Function</string>
+    <string name="run_blocking_demo">Run Blocking Function</string>
+    <string name="co_routine_demo">Co-routine Scope Function</string>
     <string name="welcome">Welcome</string>
 
 
