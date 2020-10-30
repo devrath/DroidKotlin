@@ -1,11 +1,15 @@
 package com.kotlin.demo.ui.scoping.globalScoping
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.kotlin.demo.databinding.FragmentDemoGlobalScopeBinding
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 class DemoGlobalScoping : Fragment() {
 
@@ -30,8 +34,12 @@ class DemoGlobalScoping : Fragment() {
 
     private fun init() {
         binding.fab.setOnClickListener {
-
+            Log.d(TAG,"Before starting Global Scope")
+            GlobalScope.launch {
+                delay(1000L)
+                Log.d(TAG,"Inside Global Scope")
+            }
+            Log.d(TAG,"After completing Global Scope")
         }
     }
-
 }
