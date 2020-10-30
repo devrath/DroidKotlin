@@ -12,6 +12,10 @@ Demo of concepts in kotlin
 - [x]  Companion object in kotlin
 - [x]  Extension functions in kotlin
 - [x]  Higher order functions in kotlin
+- [x]  Global scope in kotlin
+- [x]  Run blocking scope in kotlin
+- [x]  Co routine scope in kotlin
+
 
 ### Exception Handeling: 
 We have used 2 jobs, Job1 executes in 1 second and Job2 executes in 3 seconds. Now we throw an exception in Job1.
@@ -66,5 +70,4 @@ com.kotlin.demo I/System.out: Current value is: 2
 
 ### Higher order function in kotlin: 
 *observation:* Here we can pass one function as argument to another function
-
 
